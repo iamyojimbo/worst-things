@@ -1,0 +1,13 @@
+server:
+  build: nginx/ 
+  ports:
+   - "80"
+   - "443"
+  volumes_from:
+   - src-worst-things
+  links:
+   - php1
+php1:
+  build: php/
+  volumes_from:
+   - src-worst-things
