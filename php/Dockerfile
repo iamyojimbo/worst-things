@@ -21,3 +21,5 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN composer global require "laravel/installer=~1.1"
 
 env PATH /root/.composer/vendor/bin:$PATH
+
+RUN usermod -u 1000 www-data

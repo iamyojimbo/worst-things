@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Source+Sans+Pro:400,900|Work+Sans:400,900|Monofett');
+
+
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background: white;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+header {
+	margin: 0.5em auto;
+	margin-top: 0;
+	max-width: 40em; //640px
+	border: solid black 2px;
+	padding: 1em;
+	background: #F5F5F5;
+	box-sizing: border-box;
+
+	h1 {
+		text-align: center;
+		font-family: 'Source Sans Pro', sans-serif;;
+		font-size: 3em;
+		text-transform: uppercase; 
+		color: red;
+		letter-spacing: -4px;
+	}
+
+	#subtitle {
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		color: black;
+		text-transform: uppercase;
+		font-size: 1.5em;
+		letter-spacing: -1px;
+		margin-top: 0.5em;
+	}
+}
+
+
+
+#content {
+	margin: auto;
+	max-width: 40em + 2em; //640px
+	width: 100%;
+
+	#worst-things {
+		.worst-thing {
+			width: 100%;
+			margin-top: 2em;
+			.index {
+				font-size: 3em;
+				font-weight: 700;
+			}
+			.name {
+				display: inline-block;
+				margin-left: 0;
+				font-size: 2em;
+				color: red;
+			}
+			img {
+				display: block;
+				text-align: center;
+				max-width: 100%;
+				width: 100%;
+				border: solid black 2px;
+				margin-top: 0.2em;
+			}
+			.footnote {
+				margin-top: 1em;
+				color: #525252;
+			}
+		}	
+	}
+	
+}
+

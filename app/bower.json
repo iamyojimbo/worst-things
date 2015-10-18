@@ -1,0 +1,6 @@
+{
+  "name": "worst-things",
+  "dependencies": {
+    "jquery-timeago": "~1.4.3"
+  }
+}

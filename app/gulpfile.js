@@ -13,4 +13,11 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('app.scss');
+    mix.browserSync({
+        proxy: '192.168.99.100:32771'
+    });
+    mix.scripts([
+    	'../bower/jquery-timeago/jquery.timeago.js',
+    	'script.js',
+    ]);
 });
