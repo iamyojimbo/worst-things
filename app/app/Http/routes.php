@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'HomeController@showWorstThings');
+
+Route::get('/social-callback/facebook', 'HomeController@handleProviderCallback');
+Route::get('/social-redirect/facebook', 'HomeController@redirectToProvider');

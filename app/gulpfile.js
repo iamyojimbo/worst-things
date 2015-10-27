@@ -17,7 +17,9 @@ elixir(function(mix) {
         proxy: '192.168.99.100:32771'
     });
     mix.scripts([
+    	'config.js',
     	'../bower/jquery-timeago/jquery.timeago.js',
     	'script.js',
+    	'facebook-login.js',
     ]);
 });

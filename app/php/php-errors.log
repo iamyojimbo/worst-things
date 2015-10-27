@@ -104,3 +104,316 @@ Stack trace:
 [18-Oct-2015 12:19:42 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 18
 [18-Oct-2015 12:20:22 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 18
 [18-Oct-2015 12:21:07 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 18
+[18-Oct-2015 18:30:29 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:30:29 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:31:11 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:31:13 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:31:35 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:31:37 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:34:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:34:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:34:18 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:34:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:34:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:34:41 UTC] PHP Fatal error:  Class 'Laravel\Socialite\SocialiteServiceProvider' not found in /src/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[18-Oct-2015 18:35:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:35:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:38:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:38:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:41:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:41:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[18-Oct-2015 18:53:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /src/app/Http/routes.php on line 17
+[18-Oct-2015 18:53:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /src/app/Http/routes.php on line 17
+[18-Oct-2015 18:54:56 UTC] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /src/app/Http/routes.php on line 17
+[18-Oct-2015 18:54:56 UTC] PHP Parse error:  syntax error, unexpected 'Route' (T_STRING) in /src/app/Http/routes.php on line 17
+[18-Oct-2015 19:14:27 UTC] PHP Fatal error:  Class 'HTML' not found in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 14
+[18-Oct-2015 19:20:11 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 42
+[18-Oct-2015 19:20:42 UTC] PHP Fatal error:  Class 'Illuminate\Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 43
+[18-Oct-2015 19:20:44 UTC] PHP Fatal error:  Class 'Illuminate\Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 43
+[18-Oct-2015 19:21:15 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 42
+[18-Oct-2015 19:21:17 UTC] PHP Fatal error:  Class 'Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 42
+[18-Oct-2015 19:21:19 UTC] PHP Fatal error:  Class 'Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 42
+[18-Oct-2015 19:21:25 UTC] PHP Fatal error:  Class 'Socialize' not found in /src/app/Http/Controllers/HomeController.php on line 42
+[23-Oct-2015 19:48:47 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing.php on line 6
+[23-Oct-2015 19:48:55 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing.php on line 6
+[23-Oct-2015 19:49:30 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing.php on line 6
+[23-Oct-2015 19:49:36 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing.php on line 6
+[23-Oct-2015 19:49:49 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing.php on line 6
+[23-Oct-2015 19:57:48 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 19:57:49 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 19:58:13 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Interfaces\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 19:58:14 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Interfaces\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 19:59:48 UTC] PHP Fatal error:  Interface 'App\Models\Interfaces\Aggregate\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 7
+[23-Oct-2015 19:59:49 UTC] PHP Fatal error:  Interface 'App\Models\Interfaces\Aggregate\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 7
+[23-Oct-2015 20:00:11 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 8
+[23-Oct-2015 20:00:12 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 8
+[23-Oct-2015 20:00:22 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 8
+[23-Oct-2015 20:00:24 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 8
+[23-Oct-2015 20:00:47 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\App\Models\Interfaces\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 20:00:48 UTC] PHP Fatal error:  Interface 'App\Models\WorstThing\App\Models\Interfaces\Aggregate' not found in /src/app/Models/WorstThing/WorstThing.php on line 6
+[23-Oct-2015 20:00:56 UTC] PHP Fatal error:  Class 'App\Models\WorstThing\Image' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 23
+[23-Oct-2015 20:00:56 UTC] PHP Fatal error:  Class 'App\Models\WorstThing\Image' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 23
+[23-Oct-2015 20:01:49 UTC] PHP Fatal error:  Class 'App\Repositories\Postgres\WorstThingPoster' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[23-Oct-2015 20:01:51 UTC] PHP Fatal error:  Class 'App\Repositories\Postgres\WorstThingPoster' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[23-Oct-2015 20:02:05 UTC] PHP Fatal error:  Class 'App\Models\User\UserId' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[23-Oct-2015 20:02:07 UTC] PHP Fatal error:  Class 'App\Models\User\UserId' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[23-Oct-2015 20:03:51 UTC] PHP Fatal error:  Class 'App\Models\User\UserId' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[23-Oct-2015 20:04:12 UTC] PHP Fatal error:  Class 'App\Models\User\UserId' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[24-Oct-2015 06:55:41 UTC] PHP Fatal error:  Class 'App\Models\User\UserId' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[24-Oct-2015 06:58:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /src/app/Models/User/UserId.php on line 5
+[24-Oct-2015 06:59:06 UTC] PHP Fatal error:  Interface 'App\Models\User\App\Models\Interfaces\Id' not found in /src/app/Models/User/UserId.php on line 6
+[24-Oct-2015 06:59:16 UTC] PHP Fatal error:  Interface 'App\Models\User\App\Models\Interfaces\Id' not found in /src/app/Models/User/UserId.php on line 6
+[24-Oct-2015 06:59:18 UTC] PHP Fatal error:  Interface 'App\Models\User\App\Models\Interfaces\Id' not found in /src/app/Models/User/UserId.php on line 6
+[24-Oct-2015 06:59:26 UTC] PHP Fatal error:  App\Models\User\UserId cannot implement App\Models\Interfaces\Id - it is not an interface in /src/app/Models/User/UserId.php on line 6
+[24-Oct-2015 06:59:27 UTC] PHP Fatal error:  App\Models\User\UserId cannot implement App\Models\Interfaces\Id - it is not an interface in /src/app/Models/User/UserId.php on line 6
+[24-Oct-2015 06:59:33 UTC] PHP Fatal error:  Call to undefined method App\Models\User\UserId::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[24-Oct-2015 06:59:34 UTC] PHP Fatal error:  Call to undefined method App\Models\User\UserId::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 24
+[24-Oct-2015 07:00:42 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 30
+[24-Oct-2015 07:00:43 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 30
+[24-Oct-2015 07:05:52 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 30
+[24-Oct-2015 07:07:05 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 30
+[24-Oct-2015 07:07:13 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 30
+[24-Oct-2015 07:10:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Oct-2015 07:11:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Oct-2015 07:11:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Oct-2015 07:11:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/mongo.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[24-Oct-2015 07:15:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 37
+[24-Oct-2015 07:16:01 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 37
+[24-Oct-2015 07:16:09 UTC] PHP Parse error:  syntax error, unexpected ',' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 43
+[24-Oct-2015 07:17:02 UTC] PHP Fatal error:  Class 'App\Models\WorstThing\WorstThing' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:17:03 UTC] PHP Fatal error:  Class 'App\Models\WorstThing\WorstThing' not found in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:17:16 UTC] PHP Fatal error:  Call to undefined method App\Models\User\UserId::getName() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 29
+[24-Oct-2015 07:22:09 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\WorstThing::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:22:34 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\WorstThing::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:22:34 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\WorstThing::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:24:47 UTC] PHP Fatal error:  Call to private App\Models\WorstThing\WorstThing::__construct() from context 'App\Repositories\Postgres\WorstThingRepository' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:24:54 UTC] PHP Fatal error:  Call to private App\Models\WorstThing\WorstThing::__construct() from context 'App\Repositories\Postgres\WorstThingRepository' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 07:29:08 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:18
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 18, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:29:08 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:29:57 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:18
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 18, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:29:57 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:34:45 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:18
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 18, Array)
+#1 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): App\Models\Interfaces\Id->string()
+#2 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#3 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#4 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...', Array)
+#5 /src/vendor/laravel/framework/src/Illuminate/View/View.php(106): Illuminate\View\View->getContents()
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(80): Illuminate\View\View->renderContents()
+#7 /src in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:34:45 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:34:55 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:18
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(18): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 18, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:34:55 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:35:38 UTC] PHP Fatal error:  Class 'App\Models\Interfaces\Log' not found in /src/app/Models/Interfaces/Id.php on line 15
+[24-Oct-2015 07:35:40 UTC] PHP Fatal error:  Class 'App\Models\Interfaces\Log' not found in /src/app/Models/Interfaces/Id.php on line 15
+[24-Oct-2015 07:35:54 UTC] PHP Fatal error:  Class 'App\Models\Interfaces\Log' not found in /src/app/Models/Interfaces/Id.php on line 15
+[24-Oct-2015 07:36:17 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:36:17 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:38:30 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:38:30 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:39:17 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(22): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:39:17 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:44:28 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:44:28 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:46:21 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 [internal function]: App\Models\Interfaces\Id->__toString()
+#2 /src/vendor/laravel/framework/src/Illuminate/Support/helpers.php(454): htmlentities(Object(App\Models\WorstThing\WorstThingId), 3, 'UTF-8', false)
+#3 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): e(Object(App\Models\WorstThing\WorstThingId))
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#5 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...',  in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:46:21 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:46:51 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 /src/app/Models/WorstThing/WorstThing.php(49): App\Models\Interfaces\Id->__toString()
+#2 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): App\Models\WorstThing\WorstThing->id()
+#3 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#5 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(106): Illuminate\View\View->getContents()
+#7 /src/vendor/larav in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:46:51 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:47:14 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /src/app/Models/WorstThing/WorstThing.php on line 50
+[24-Oct-2015 07:47:24 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: id' in /src/app/Models/Interfaces/Id.php:19
+Stack trace:
+#0 /src/app/Models/Interfaces/Id.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/src/app/Models...', 19, Array)
+#1 /src/app/Models/WorstThing/WorstThing.php(49): App\Models\Interfaces\Id->__toString()
+#2 /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c(20): App\Models\WorstThing\WorstThing->id()
+#3 /src/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(42): include('/src/storage/fr...')
+#4 /src/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(58): Illuminate\View\Engines\PhpEngine->evaluatePath('/src/storage/fr...', Array)
+#5 /src/vendor/laravel/framework/src/Illuminate/View/View.php(135): Illuminate\View\Engines\CompilerEngine->get('/src/resources/...', Array)
+#6 /src/vendor/laravel/framework/src/Illuminate/View/View.php(106): Illuminate\View\View->getContents()
+#7 /src/vendor/larav in /src/app/Models/Interfaces/Id.php on line 19
+[24-Oct-2015 07:47:24 UTC] PHP Fatal error:  Cannot access empty property in /src/app/Models/Interfaces/Id.php on line 18
+[24-Oct-2015 07:58:37 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\WorstThing::getName() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 22
+[24-Oct-2015 07:59:19 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\Image::uri() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 27
+[24-Oct-2015 07:59:56 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\Image::constructNew() in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 08:00:21 UTC] PHP Fatal error:  Call to private App\Models\WorstThing\Image::__construct() from context 'App\Repositories\Postgres\WorstThingRepository' in /src/app/Repositories/Postgres/WorstThingRepository.php on line 28
+[24-Oct-2015 08:08:03 UTC] PHP Fatal error:  App\Models\WorstThing\WorstThing cannot implement App\Models\Interfaces\Aggregate - it is not an interface in /src/app/Models/WorstThing/WorstThing.php on line 8
+[24-Oct-2015 08:13:21 UTC] PHP Fatal error:  Call to undefined method App\Models\WorstThing\WorstThing::createdDateTime() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 30
+[24-Oct-2015 08:32:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /src/app/Models/Interfaces/Id.php on line 15
+[27-Oct-2015 00:19:46 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /src/app/Http/Controllers/HomeController.php on line 42
+[27-Oct-2015 00:20:01 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /src/app/Http/Controllers/HomeController.php on line 42
+[27-Oct-2015 00:20:03 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\map() in /src/app/Http/Controllers/HomeController.php on line 38
+[27-Oct-2015 00:20:05 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\map() in /src/app/Http/Controllers/HomeController.php on line 38
+[27-Oct-2015 00:20:07 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\map() in /src/app/Http/Controllers/HomeController.php on line 39
+[27-Oct-2015 00:22:41 UTC] PHP Fatal error:  Cannot redeclare App\Repositories\Postgres\UserRepository::getById() in /src/app/Repositories/Postgres/UserRepository.php on line 22
+[27-Oct-2015 00:22:43 UTC] PHP Fatal error:  Cannot redeclare App\Repositories\Postgres\UserRepository::getById() in /src/app/Repositories/Postgres/UserRepository.php on line 22
+[27-Oct-2015 00:23:04 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:23:05 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:23:06 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:25:05 UTC] PHP Fatal error:  Cannot redeclare class App\Providers\WorstThingRepositoryProvider in /src/app/Providers/UserRepositoryProvider.php on line 0
+[27-Oct-2015 00:25:10 UTC] PHP Fatal error:  Cannot redeclare class App\Providers\WorstThingRepositoryProvider in /src/app/Providers/UserRepositoryProvider.php on line 22
+[27-Oct-2015 00:25:39 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:25:40 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:26:54 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 14
+[27-Oct-2015 00:26:58 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:27:36 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:28:37 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:29:36 UTC] PHP Fatal error:  Cannot use App\Models\WorstThing\WorstThingId as WorstThingId because the name is already in use in /src/app/Repositories/Postgres/WorstThingRepository.php on line 10
+[27-Oct-2015 00:29:40 UTC] PHP Fatal error:  Cannot use App\Models\WorstThing\WorstThingId as WorstThingId because the name is already in use in /src/app/Repositories/Postgres/WorstThingRepository.php on line 10
+[27-Oct-2015 00:29:45 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:29:47 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:30:06 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:30:08 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:32:51 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 13
+[27-Oct-2015 00:33:32 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:33:33 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:34:32 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:34:34 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:37:26 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:37:28 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:38:59 UTC] PHP Fatal error:  Class App\Repositories\Postgres\WorstThingRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getById) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:00 UTC] PHP Fatal error:  Class App\Repositories\Postgres\WorstThingRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getById) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:01 UTC] PHP Fatal error:  Class App\Repositories\Postgres\WorstThingRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getById) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:06 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:08 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:10 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:15 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:33 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:36 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:37 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 14
+[27-Oct-2015 00:39:47 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:39:49 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:41:01 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:41:08 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:45:51 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:46:08 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:46:09 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:46:23 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:46:49 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:47:05 UTC] PHP Fatal error:  Class App\Repositories\Postgres\UserRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getAll) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:47:08 UTC] PHP Fatal error:  Class App\Repositories\Postgres\UserRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getAll) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:48:34 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById($id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:48:40 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Repositories\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:48:58 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\WorstThingRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Models\Interfaces\Id $id) in /src/app/Repositories/Postgres/WorstThingRepository.php on line 16
+[27-Oct-2015 00:49:24 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Models\Interfaces\Id $id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:49:30 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Models\Interfaces\Id $id) in /src/app/Repositories/Postgres/UserRepository.php on line 12
+[27-Oct-2015 00:49:51 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Models\Interfaces\Id $id) in /src/app/Repositories/Postgres/UserRepository.php on line 13
+[27-Oct-2015 00:49:52 UTC] PHP Fatal error:  Declaration of App\Repositories\Postgres\UserRepository::getById() must be compatible with App\Repositories\Interfaces\RepositoryInterface::getById(App\Models\Interfaces\Id $id) in /src/app/Repositories/Postgres/UserRepository.php on line 13
+[27-Oct-2015 01:10:13 UTC] PHP Fatal error:  Class 'App\Repositories\Postgres\User' not found in /src/app/Repositories/Postgres/UserRepository.php on line 15
+[27-Oct-2015 01:10:15 UTC] PHP Fatal error:  Class 'App\Repositories\Postgres\User' not found in /src/app/Repositories/Postgres/UserRepository.php on line 15
+[27-Oct-2015 01:10:48 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:12:11 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:12:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:13:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:19:30 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:29:17 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:29:28 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:35:45 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:36:37 UTC] PHP Fatal error:  Class App\Repositories\Postgres\UserRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getById) in /src/app/Repositories/Postgres/UserRepository.php on line 14
+[27-Oct-2015 01:36:38 UTC] PHP Fatal error:  Class App\Repositories\Postgres\UserRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Repositories\Interfaces\RepositoryInterface::getById) in /src/app/Repositories/Postgres/UserRepository.php on line 14
+[27-Oct-2015 01:36:42 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:37:16 UTC] PHP Fatal error:  Cannot redeclare App\Repositories\Postgres\UserRepository::getById() in /src/app/Repositories/Postgres/UserRepository.php on line 32
+[27-Oct-2015 01:37:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:37:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:37:32 UTC] PHP Fatal error:  Cannot redeclare App\Repositories\Postgres\UserRepository::getById() in /src/app/Repositories/Postgres/UserRepository.php on line 32
+[27-Oct-2015 01:37:36 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:37:37 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:37:53 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:38:05 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/User.php on line 21
+[27-Oct-2015 01:38:24 UTC] PHP Fatal error:  Class 'App\Models\User\User' not found in /src/app/Repositories/Postgres/UserRepository.php on line 16
+[27-Oct-2015 01:38:25 UTC] PHP Fatal error:  Class 'App\Models\User\User' not found in /src/app/Repositories/Postgres/UserRepository.php on line 16
+[27-Oct-2015 01:38:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/Email.php on line 15
+[27-Oct-2015 01:38:41 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /src/app/Models/User/Email.php on line 15
+[27-Oct-2015 01:38:48 UTC] PHP Fatal error:  Call to undefined method App\Models\User\User::toArray() in /src/app/DPO/WorstThingDPO.php on line 25
+[27-Oct-2015 01:38:51 UTC] PHP Fatal error:  Call to undefined method App\Models\User\User::toArray() in /src/app/DPO/WorstThingDPO.php on line 25
+[27-Oct-2015 01:39:57 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /src/app/Models/User/User.php on line 31
+[27-Oct-2015 01:40:03 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /src/app/Models/User/User.php on line 31
+[27-Oct-2015 01:40:21 UTC] PHP Fatal error:  Call to undefined method App\DPO\WorstThingDPO::id() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:40:59 UTC] PHP Fatal error:  Call to undefined method App\DPO\WorstThingDPO::id() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:41:00 UTC] PHP Fatal error:  Call to undefined method App\DPO\WorstThingDPO::id() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:41:16 UTC] PHP Fatal error:  Cannot use object of type App\DPO\WorstThingDPO as array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:41:34 UTC] PHP Fatal error:  Cannot access protected property App\DPO\WorstThingDPO::$data in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:41:58 UTC] PHP Fatal error:  Cannot access protected property App\DPO\WorstThingDPO::$data in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:42:09 UTC] PHP Fatal error:  Cannot use object of type App\DPO\WorstThingDPO as array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 22
+[27-Oct-2015 01:43:18 UTC] PHP Fatal error:  Call to a member function data() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:43:20 UTC] PHP Fatal error:  Call to a member function data() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 20
+[27-Oct-2015 01:43:31 UTC] PHP Fatal error:  Cannot use object of type App\DPO\WorstThingDPO as array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 22
+[27-Oct-2015 01:44:33 UTC] PHP Fatal error:  Call to undefined method App\DPO\WorstThingDPO::downvotes() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 24
+[27-Oct-2015 01:44:34 UTC] PHP Fatal error:  Call to undefined method App\DPO\WorstThingDPO::downvotes() in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 24
+[27-Oct-2015 01:46:57 UTC] PHP Fatal error:  Call to a member function name() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 29
+[27-Oct-2015 01:47:05 UTC] PHP Fatal error:  Call to a member function name() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 29
+[27-Oct-2015 01:47:44 UTC] PHP Fatal error:  Call to a member function name() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 29
+[27-Oct-2015 01:47:47 UTC] PHP Fatal error:  Call to a member function name() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 29
+[27-Oct-2015 01:48:22 UTC] PHP Fatal error:  Call to a member function name() on array in /src/storage/framework/views/8847406dfb18cad6aa3e23044857af8c on line 30

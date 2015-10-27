@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Source+Sans+Pro:400,900|Work+Sans:400,900|Monofett');
 
+$background: #F5F5F5;
+$font-size-desktop: 16px;
+$font-size-mobile: 12px;
+$color-brand: red;
+$color-text: black;
 
 html {
 	width: 100%;
@@ -8,8 +13,11 @@ html {
 body {
 	width: 100%;
 	background: white;
-	font-size: 16px;
+	font-size: $font-size-desktop;
 	font-family: 'Open Sans', sans-serif;
+	@media (max-width: 480px) { 
+		font-size: $font-size-mobile;
+	}
 }
 
 #content {
@@ -21,9 +29,9 @@ header {
 	margin: 0.5em auto;
 	margin-top: 0;
 	max-width: 40em; //640px
-	border: solid black 2px;
+	border: solid $color-text 2px;
 	padding: 1em;
-	background: #F5F5F5;
+	background: $background;
 	box-sizing: border-box;
 
 	h1 {
@@ -31,15 +39,15 @@ header {
 		font-family: 'Source Sans Pro', sans-serif;;
 		font-size: 3em;
 		text-transform: uppercase; 
-		color: red;
+		color: $color-brand;
 		letter-spacing: -4px;
 	}
 
 	#subtitle {
 		text-align: center;
 		font-family: 'Open Sans', sans-serif;
-		font-weight: 300;
-		color: black;
+		font-weight: 400;
+		color: $color-text;
 		text-transform: uppercase;
 		font-size: 1.5em;
 		letter-spacing: -1px;
@@ -66,15 +74,25 @@ header {
 				display: inline-block;
 				margin-left: 0;
 				font-size: 2em;
-				color: red;
+				color: $color-brand;
 			}
+
+			.downvote {
+				float: right;
+				font-size: 2.5em;
+
+				.downvote-icon {
+				}
+			}
+
 			img {
 				display: block;
 				text-align: center;
 				max-width: 100%;
 				width: 100%;
-				border: solid black 2px;
+				border: solid $color-text 2px;
 				margin-top: 0.2em;
+				box-sizing: border-box;
 			}
 			.footnote {
 				margin-top: 1em;
