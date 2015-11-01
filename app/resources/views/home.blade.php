@@ -4,6 +4,7 @@
         <title>Worst Things in the World!</title>
         <link rel="stylesheet" type="text/css" href="/css/app.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
     </head>
     <body>
         <div id="content">
@@ -11,23 +12,22 @@
                 <h1>The World's Worst Things!</h1>
                 <h2 id="subtitle">A collection of the very worst things in the whole wide world</h2>
             </header>
-            {{-- <a href="{{action('HomeController@redirectToProvider')}}">Login with Facebook</a> --}}
-            <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">Login with Facebook</fb:login-button>
-            <div id="status"></div>
+{{--             <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">Login with Facebook</fb:login-button>
+            <div id="status"></div> --}}
 
             <div id="worst-things"> 
                 @foreach ($worstThings as $index => $worstThing)
-                    <div class="worst-thing" data-id="{{$worstThing->data()['id']}}">
+                    <div class="worst-thing" data-id="{{$worstThing['id']}}">
                         <span class="index">#{{$index + 1}}</span>
-                        <h2 class="name">{{$worstThing->data()["name"]}}</h2>
+                        <h2 class="name">{{$worstThing["name"]}}</h2>
                         <span class="downvote">
-                            <span class="downvote-count">{{$worstThing->data()["downvotes"]}}</span>
-                            <span class="downvote-icon fa fa-thumbs-down"></span>
+                            <span class="downvote-count">{{$worstThing["downvotes"]}}</span>
+                            <button type="submit"><span class="downvote-icon fa fa-thumbs-down"></span></button>
                         </span>
-                        <img src="{{$worstThing->data()['image']->uri()}}">
+                        <img src="{{$worstThing['image']->uri()}}">
                         <div class="footnote">
-                            <span class="poster">Posted by {{$worstThing->data()["poster"]["fullName"]}} &mdash; </span>
-                            <time class="datetime-posted" datetime="{{$worstThing->data()['createdDateTime']->format('Y-m-d H:i:s')}}"></time>
+                            <span class="poster">Posted by {{$worstThing["poster"]["fullName"]}} &mdash; </span>
+                            <time class="datetime-posted" datetime="{{$worstThing['createdDateTime']->format('Y-m-d H:i:s')}}"></time>
                         </div>
                     </div>
                 @endforeach

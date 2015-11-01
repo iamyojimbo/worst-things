@@ -225,86 +225,135 @@ var CONFIG = {
   document.createElement("time");
 }));
 
+(function(g,f){'use strict';var h=function(e){if("object"!==typeof e.document)throw Error("Cookies.js requires a `window` with a `document` object");var b=function(a,d,c){return 1===arguments.length?b.get(a):b.set(a,d,c)};b._document=e.document;b._cacheKeyPrefix="cookey.";b._maxExpireDate=new Date("Fri, 31 Dec 9999 23:59:59 UTC");b.defaults={path:"/",secure:!1};b.get=function(a){b._cachedDocumentCookie!==b._document.cookie&&b._renewCache();a=b._cache[b._cacheKeyPrefix+a];return a===f?f:decodeURIComponent(a)};
+b.set=function(a,d,c){c=b._getExtendedOptions(c);c.expires=b._getExpiresDate(d===f?-1:c.expires);b._document.cookie=b._generateCookieString(a,d,c);return b};b.expire=function(a,d){return b.set(a,f,d)};b._getExtendedOptions=function(a){return{path:a&&a.path||b.defaults.path,domain:a&&a.domain||b.defaults.domain,expires:a&&a.expires||b.defaults.expires,secure:a&&a.secure!==f?a.secure:b.defaults.secure}};b._isValidDate=function(a){return"[object Date]"===Object.prototype.toString.call(a)&&!isNaN(a.getTime())};
+b._getExpiresDate=function(a,d){d=d||new Date;"number"===typeof a?a=Infinity===a?b._maxExpireDate:new Date(d.getTime()+1E3*a):"string"===typeof a&&(a=new Date(a));if(a&&!b._isValidDate(a))throw Error("`expires` parameter cannot be converted to a valid Date instance");return a};b._generateCookieString=function(a,b,c){a=a.replace(/[^#$&+\^`|]/g,encodeURIComponent);a=a.replace(/\(/g,"%28").replace(/\)/g,"%29");b=(b+"").replace(/[^!#$&-+\--:<-\[\]-~]/g,encodeURIComponent);c=c||{};a=a+"="+b+(c.path?";path="+
+c.path:"");a+=c.domain?";domain="+c.domain:"";a+=c.expires?";expires="+c.expires.toUTCString():"";return a+=c.secure?";secure":""};b._getCacheFromString=function(a){var d={};a=a?a.split("; "):[];for(var c=0;c<a.length;c++){var e=b._getKeyValuePairFromCookieString(a[c]);d[b._cacheKeyPrefix+e.key]===f&&(d[b._cacheKeyPrefix+e.key]=e.value)}return d};b._getKeyValuePairFromCookieString=function(a){var b=a.indexOf("="),b=0>b?a.length:b,c=a.substr(0,b),e;try{e=decodeURIComponent(c)}catch(f){console&&"function"===
+typeof console.error&&console.error('Could not decode cookie with key "'+c+'"',f)}return{key:e,value:a.substr(b+1)}};b._renewCache=function(){b._cache=b._getCacheFromString(b._document.cookie);b._cachedDocumentCookie=b._document.cookie};b._areEnabled=function(){var a="1"===b.set("cookies.js",1).get("cookies.js");b.expire("cookies.js");return a};b.enabled=b._areEnabled();return b},e="object"===typeof g.document?h(g):h;"function"===typeof define&&define.amd?define(function(){return e}):"object"===typeof exports?
+("object"===typeof module&&"object"===typeof module.exports&&(exports=module.exports=e),exports.Cookies=e):g.Cookies=e})("undefined"===typeof window?this:window);
 jQuery(document).ready(function() {
 	$("time.datetime-posted").timeago();
 });
-// This is called with the results from from FB.getLoginStatus().
-function statusChangeCallback(response) {
-  console.log('statusChangeCallback');
-  console.log(response);
-  // The response object is returned with a status field that lets the
-  // app know the current login status of the person.
-  // Full docs on the response object can be found in the documentation
-  // for FB.getLoginStatus().
-  if (response.status === 'connected') {
-    // Logged into your app and Facebook.
-    testAPI();
-  } else if (response.status === 'not_authorized') {
-    // The person is logged into Facebook, but not your app.
-    document.getElementById('status').innerHTML = 'Please log ' +
-      'into this app.';
-  } else {
-    // The person is not logged into Facebook, so we're not sure if
-    // they are logged into this app or not.
-    document.getElementById('status').innerHTML = 'Please log ' +
-      'into Facebook.';
-  }
-}
-
-// This function is called when someone finishes with the Login
-// Button.  See the onlogin handler attached to it in the sample
-// code below.
-function checkLoginState() {
-  FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-  });
-}
+$.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+});
 
 window.fbAsyncInit = function() {
-FB.init({
-  appId      : CONFIG.facebook_app_id,
-  cookie     : true,  // enable cookies to allow the server to access 
-                      // the session
-  xfbml      : true,  // parse social plugins on this page
-  version    : 'v2.4' // use version 2.2
-});
+  FB.init({
+    appId      : CONFIG.facebook_app_id,
+    cookie     : true,  // enable cookies to allow the server to access 
+                        // the session
+    xfbml      : true,  // parse social plugins on this page
+    version    : 'v2.4' // use version 2.2
+  });
 
-// Now that we've initialized the JavaScript SDK, we call 
-// FB.getLoginStatus().  This function gets the state of the
-// person visiting this page and can return one of three states to
-// the callback you provide.  They can be:
-//
-// 1. Logged into your app ('connected')
-// 2. Logged into Facebook, but not your app ('not_authorized')
-// 3. Not logged into Facebook and can't tell if they are logged into
-//    your app or not.
-//
-// These three cases are handled in the callback function.
-
-FB.getLoginStatus(function(response) {
-  statusChangeCallback(response);
-});
-
+   FB.getLoginStatus(function(response){
+        if (response.status === 'connected') {
+           getAndApplyUserDownvotes();
+        }
+    });
 };
 
 // Load the SDK asynchronously
 (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js";
-  fjs.parentNode.insertBefore(js, fjs);
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
-// Here we run a very simple test of the Graph API after login is
-// successful.  See statusChangeCallback() for when this call is made.
-function testAPI() {
-  console.log('Welcome!  Fetching your information.... ');
-  FB.api('/me', function(response) {
-    console.log('Successful login for: ' + response.name);
-    document.getElementById('status').innerHTML =
-      'Thanks for logging in, ' + response.name + '!';
-  });
+
+function upsertUser(facebookUserId) {
+    console.log("upserting user");
+    return $.ajax({
+        url:"/user",
+        method: "PUT",
+        data: {
+            "facebookUserId" : facebookUserId
+        },
+        context: document.body,
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown)
+        }
+    });
 }
+
+function downvote(worstThingDOM) {
+    setWorstThingAsBeingDownvoted(worstThingDOM);
+    var worstThingId = $(worstThingDOM).data("id");
+    return $.ajax({
+        url:"/downvote",
+        method: "POST",
+        data: {
+            "worstThingId" : worstThingId,
+        },
+        context: document.body,
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown)
+        }
+    });
+}
+
+function getUserDownvotes() {
+    return $.ajax({
+        url:"/user-downvotes",
+        method: "GET",
+        context: document.body,
+        error: function(jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown)
+        }
+    });
+}
+
+function applyUserDownvotesToView(worstThingIds) {
+    var userDownvotedWorstThings = $.grep($(".worst-thing"), function(worstThing){
+        //$.inArray returns -1 if not in array and index if in array
+        return $.inArray($(worstThing).data("id"), worstThingIds) >= 0;
+    });
+    $.each(userDownvotedWorstThings, function(){
+        setWorstThingAsBeingDownvoted(this);
+    });
+}
+
+function getAndApplyUserDownvotes() {
+    getUserDownvotes().success(function(downvotes){
+        var worstThingIds = $.map(downvotes, function(downvote){
+            return downvote.worstThingId;
+        });
+        applyUserDownvotesToView(worstThingIds);
+    });
+}
+
+function setWorstThingAsBeingDownvoted(worstThingDOM) {
+    $(worstThingDOM).addClass("user-downvoted");
+    $(worstThingDOM).find("button").prop('disabled', true);
+    $(worstThingDOM).find(".downvote-count").html(
+        parseInt($(worstThingDOM).find(".downvote-count").html())+1
+    );
+}
+
+jQuery(document).ready(function(){
+    $(".downvote button").click(function(){
+        // Get this button's WorstThing element
+        var worstThingDOM = $(this).closest(".worst-thing");
+        FB.getLoginStatus(function(response){
+            if (response.status === 'connected'){
+                downvote(worstThingDOM);
+            } else {
+                FB.login(function(response){
+                    upsertUser(response.authResponse.userID)
+                        .success(function(response){
+                            downvote(worstThingDOM).success(function(){
+                                getAndApplyUserDownvotes();
+                            });
+                        });
+                });
+            }
+        });
+    });
+});
 
 //# sourceMappingURL=all.js.map

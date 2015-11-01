@@ -36,4 +36,11 @@ class FullName
     public function __toString() {
         return $this->fullName();
     }
+
+    public function toArray() {
+        return [
+            "firstName" => $this->firstName,
+            "lastName" => $this->lastName
+        ];
+    }
 }

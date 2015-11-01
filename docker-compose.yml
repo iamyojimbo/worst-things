@@ -11,3 +11,7 @@ php1:
   build: php/
   volumes_from:
    - src-worst-things
+  links:
+   - posgres
+posgres:
+  build: posgres/

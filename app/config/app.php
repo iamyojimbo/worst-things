@@ -147,6 +147,10 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\WorstThingRepositoryProvider::class,
         App\Providers\UserRepositoryProvider::class,
+        App\Providers\DownvoteRepositoryProvider::class,
+
+        // Third party
+        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
 
     ],
 

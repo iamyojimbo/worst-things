@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
+use SammyK\LaravelFacebookSdk\LaravelFacebookSdk as FacebookSDK;
 
 class Authenticate
 {
@@ -13,6 +14,7 @@ class Authenticate
      * @var Guard
      */
     protected $auth;
+    protected $fb;
 
     /**
      * Create a new filter instance.
@@ -20,9 +22,10 @@ class Authenticate
      * @param  Guard  $auth
      * @return void
      */
-    public function __construct(Guard $auth)
+    public function __construct(Guard $auth, FacebookSDK $fb)
     {
         $this->auth = $auth;
+        $this->fb = $fb;
     }
 
     /**
@@ -34,12 +37,31 @@ class Authenticate
      */
     public function handle($request, Closure $next)
     {
-        if ($this->auth->guest()) {
-            if ($request->ajax()) {
-                return response('Unauthorized.', 401);
-            } else {
-                return redirect()->guest('auth/login');
-            }
+        /* This used to be here and is helpful to see what we can do:
+         *  if ($this->auth->guest()) {
+         *      if ($request->ajax()) {
+         *          return response('Unauthorized.', 401);
+         *      } else {
+         *          return redirect()->guest('auth/login');
+         *      }
+         *  }
+         */
+
+        $facebookAccessToken = $request->session()->get('fb_user_access_token');
+
+        \Log::info("facebookAccessToken: {$facebookAccessToken}");
+
+        //Check their token is valid (i.e. can we trust them from now on?)
+        try {
+          $response = $this->fb->get('/me?fields=id,name', $facebookAccessToken);
+        } catch(Facebook\Exceptions\FacebookAuthenticationException $e) {
+          return response('Unauthorized.', 401);
+        } catch(Facebook\Exceptions\FacebookResponseException $e) {
+          echo 'Graph returned an error: ' . $e->getMessage();
+          return response("Facebook Unavailable", 503);
+        } catch(Facebook\Exceptions\FacebookSDKException $e) {
+          echo 'Facebook SDK returned an error: ' . $e->getMessage();
+          return response("Facebook Unavailable", 503);
         }
 
         return $next($request);

@@ -18,8 +18,7 @@ class User extends \App\Models\Interfaces\Aggregate
     	UserId $id, 
     	FullName $fullName,
         Email $email
-    ) 
-    {
+    ) {
         parent::__construct();
     	$this->id = $id;
     	$this->fullName = $fullName;
@@ -31,6 +30,14 @@ class User extends \App\Models\Interfaces\Aggregate
             "id" => $this->id,
             "fullName" => $this->fullName,
             "email" => $this->email
+        ];
+    }
+
+    public function toArrayRecursive() {
+        return [
+            "id" => (string) $this->id,
+            "fullName" => $this->fullName->toArray(),
+            "email" => (string)$this->email
         ];
     }
 }

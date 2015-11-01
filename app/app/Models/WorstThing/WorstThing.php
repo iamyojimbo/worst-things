@@ -37,10 +37,9 @@ class WorstThing extends \App\Models\Interfaces\Aggregate
         $this->downvotes = $downvotes;
     }
 
-
-    // public function downvote(UserId $userId) {
-    //     $this->downvotes[] = new Downvote($userId);
-    // }
+    public function downvote() {
+        $this->downvotes++;
+    }
 
     public function id() {
         return $this->id;

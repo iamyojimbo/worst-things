@@ -15,3 +15,15 @@ Route::get('/', 'HomeController@showWorstThings');
 
 Route::get('/social-callback/facebook', 'HomeController@handleProviderCallback');
 Route::get('/social-redirect/facebook', 'HomeController@redirectToProvider');
+
+Route::put('/user', 'UserController@upsertUser');
+
+Route::post('/downvote', [
+	'uses' => 'HomeController@downvoteWorstThing', 
+	'middleware' => 'auth'
+]);
+
+Route::get('/user-downvotes', [
+	'uses' => 'HomeController@getUserDownvotes', 
+	'middleware' => 'auth'
+]);

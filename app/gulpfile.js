@@ -18,7 +18,8 @@ elixir(function(mix) {
     });
     mix.scripts([
     	'config.js',
-    	'../bower/jquery-timeago/jquery.timeago.js',
+        '../bower/jquery-timeago/jquery.timeago.js',
+    	'../bower/cookies-js/dist/cookies.min.js',
     	'script.js',
     	'facebook-login.js',
     ]);

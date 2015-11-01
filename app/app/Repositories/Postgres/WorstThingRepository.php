@@ -15,7 +15,13 @@ use Ramsey\Uuid\Uuid;
 class WorstThingRepository extends WorstThingRepositoryInterface
 {
     public function getById(Id $id) {
-    	return new WorstThing();
+    	return new WorstThing(
+                new WorstThingId("hello1"),
+                "This!",
+                new Image("http://www.supercomfort.in/admin/upload/mattress-protector.jpg"),
+                new UserId("Jeff"),
+                12
+            );
     }
 
     public function nextIdentity() {
@@ -26,69 +32,74 @@ class WorstThingRepository extends WorstThingRepositoryInterface
     public function getAll() {
     	return [
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello1"),
     			"This!",
     			new Image("http://www.supercomfort.in/admin/upload/mattress-protector.jpg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello2"),
     			"This guy!",
     			new Image("https://pbs.twimg.com/profile_images/415917193814372352/HiEKWGSW.jpeg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello3"),
     			"This!",
     			new Image("http://4.bp.blogspot.com/_ZixWZixxNfI/TAizE1_WFsI/AAAAAAAAA7E/6svc-FgO2iM/s1600/SP040665.JPG"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello4"),
     			"This!",
     			new Image("http://www.supercomfort.in/admin/upload/mattress-protector.jpg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello5"),
     			"This guy!",
     			new Image("https://pbs.twimg.com/profile_images/415917193814372352/HiEKWGSW.jpeg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello6"),
     			"This!",
     			new Image("http://4.bp.blogspot.com/_ZixWZixxNfI/TAizE1_WFsI/AAAAAAAAA7E/6svc-FgO2iM/s1600/SP040665.JPG"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello7"),
     			"This!",
     			new Image("http://www.supercomfort.in/admin/upload/mattress-protector.jpg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello8"),
     			"This guy!",
     			new Image("https://pbs.twimg.com/profile_images/415917193814372352/HiEKWGSW.jpeg"),
     			new UserId("Jeff"),
                 12
     		),
     		new WorstThing(
-                $this->nextIdentity(),
+                new WorstThingId("hello9"),
     			"This!",
     			new Image("http://4.bp.blogspot.com/_ZixWZixxNfI/TAizE1_WFsI/AAAAAAAAA7E/6svc-FgO2iM/s1600/SP040665.JPG"),
     			new UserId("Jeff"),
                 12
     		),
     	];
+    }
+
+    public function save(WorstThing $worstThing) {
+        \Log::info("Saved");
+        return $worstThing;
     }
 
 
